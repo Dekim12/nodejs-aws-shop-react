@@ -36,3 +36,17 @@ Runs tests in console, in browser or with coverage.
 ### `lint`, `prettier`
 
 Runs linting and formatting for all files in `src` folder.
+
+# Task 2
+
+## Link to CloudFront
+
+- <https://d3qpae1esp6orx.cloudfront.net>
+
+## Link to S3-website
+
+- <http://my-automated-with-cdk-rss-bucket.s3-website-us-east-1.amazonaws.com>
+
+## To run aws deployment use this command
+
+### `npm run aws-deploy`

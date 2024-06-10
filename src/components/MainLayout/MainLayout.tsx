@@ -27,6 +27,7 @@ const MainLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
           {children}
         </Container>
       </main>
+      <Typography variant="h3" align="center">My own changes!!! With CDK deployment!!!!!</Typography>
       <Box
         component={"footer"}
         sx={{ bgcolor: (theme) => theme.palette.background.paper, padding: 6 }}
@@ -37,7 +38,7 @@ const MainLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
           color="textSecondary"
           component="p"
         >
-          Thank you for your purchase!
+          Thank you for your purchase! Automated part!
         </Typography>
         <Copyright />
       </Box>
